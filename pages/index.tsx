@@ -1,7 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
+
+//import images
+import profileImage from "../public/pro.png";
 // import icons
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -20,7 +26,7 @@ export default function Home() {
           <section>
             {/* nav */}
             <nav className="py-10 flex justify-between">
-              <h1 className="text-sm">Developed by Bhanuka Kavishka</h1>
+              <h1 className="text-sm text-blue-400">Developed by Bhanuka Ariyarathne</h1>
               <ul className="flex items-center">
                 {/* icon */}
                 <li>
@@ -35,6 +41,22 @@ export default function Home() {
                 </li>
               </ul>
             </nav>
+            {/* hero */}
+            <div className="text-center p-10">
+              <h1 className=" text-5xl font-bold text-blue-400">Bhanuka Ariyarathne</h1>
+              <h3 className=" text-2xl py-4">UNDERGRADUATE | BACHELOR OF INFORMATIONTECHNOLOGY </h3>
+              <p className="text-sm py-4 text-gray-400 leading-6">A final year proactive Bachelor of Information Technology (External) student at the University of Colombo School of Computing. Possess strong communication skills with fluency in English and Sinhala. Keen to pursue a career in professional services with a focus on IT and software development roles.</p>
+            </div>
+            {/* social icons */}
+            <div className="text-5xl flex justify-center gap-16 text-gray-500">
+            <a href="https://github.com/Bhanuka99"><FaGithub /></a>
+            <a href="https://linkedin.com/in/bhanuka-ariyarathne"><FaLinkedin /></a>
+            <a href="mailto:bhanuka.ariyarathne@gmail.com"><SiGmail /></a>
+            </div>
+            {/* profile */}
+            <div className="m-auto relative bg-gradient-to-b from-blue-200 w-80 h-80 p-5 mt-20 rounded-full">
+              <Image src={profileImage} alt="profile pic" layout="" objectFit="cover"/>
+            </div>
           </section>
         </main>
       </div>
