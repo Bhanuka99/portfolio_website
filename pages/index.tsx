@@ -3,6 +3,9 @@ import Image from "next/image";
 
 //import images
 import profileImage from "../public/pro.png";
+import langskill from "../public/lang.png";
+import frameskill from "../public/frame.png";
+import otherskill from "../public/other.png";
 // import icons
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa6";
@@ -44,7 +47,7 @@ export default function Home() {
             {/* hero */}
             <div className="text-center p-10">
               <h1 className=" text-5xl font-bold text-blue-400">Bhanuka Ariyarathne</h1>
-              <h3 className=" text-2xl py-4">UNDERGRADUATE | BACHELOR OF INFORMATIONTECHNOLOGY </h3>
+              <h3 className=" text-2xl py-4">UNDERGRADUATE | BACHELOR OF INFORMATION TECHNOLOGY </h3>
               <p className="text-sm py-4 text-gray-400 leading-6">A final year proactive Bachelor of Information Technology (External) student at the University of Colombo School of Computing. Possess strong communication skills with fluency in English and Sinhala. Keen to pursue a career in professional services with a focus on IT and software development roles.</p>
             </div>
             {/* social icons */}
@@ -56,6 +59,42 @@ export default function Home() {
             {/* profile */}
             <div className="m-auto relative bg-gradient-to-b from-blue-200 w-80 h-80 p-5 mt-20 rounded-full">
               <Image src={profileImage} alt="profile pic" layout="" objectFit="cover"/>
+            </div>
+          </section>
+          {/* about section */}
+          <section>
+            <div>
+              <h2 className="opacity-60 text-4xl py-8 font-bold">About Me</h2>
+              <p className="text-sm text-gray-400 leading-6"> Currently i am doing my Bachelors and i have a Higher Diploma and a Diploma in Information Tecnologies in University of Colombo. Those are my main education qualifications. I also have a 3 years of working experience as a Production Manager in D.D.Atukorala Group (pvt)ltd.</p>
+              <h2 className="opacity-60 text-4xl py-8 font-bold">Skills</h2>
+            </div>
+            {/* skill cards */}
+            <div className="bg-blue-300 text-center shadow-sm p-5 rounded-xl my-10">
+            <Image src={langskill}
+             alt="lang pic"
+             width={180}
+             height={150}
+             className="inline"/>
+             <h2 className="text-xl font-bold">Programming Languages</h2>
+             <p className="text-sm py-2 text-gray-800 leading-6"> Currently i am doing my Bachelors and i have a Higher Diploma and a Diploma in Information Tecnologies in University of Colombo.</p>
+            </div>
+            <div className="bg-blue-300 text-center shadow-sm p-5 rounded-xl my-10">
+            <Image src={frameskill}
+             alt="frame pic"
+             width={120}
+             height={120}
+             className="inline"/>
+             <h2 className="text-xl font-bold">Frameworks</h2>
+             <p className="text-sm py-2 text-gray-800 leading-6"> Currently i am doing my Bachelors and i have a Higher Diploma and a Diploma in Information Tecnologies in University of Colombo.</p>
+            </div>
+            <div className="bg-blue-300 text-center shadow-sm p-5 rounded-xl my-10">
+            <Image src={otherskill}
+             alt="other pic"
+             width={180}
+             height={180}
+             className="inline"/>
+             <h2 className="text-xl font-bold">Others</h2>
+             <p className="text-sm py-2 text-gray-800 leading-6"> Currently i am doing my Bachelors and i have a Higher Diploma and a Diploma in Information Tecnologies in University of Colombo.</p>
             </div>
           </section>
         </main>
