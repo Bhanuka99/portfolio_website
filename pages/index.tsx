@@ -87,7 +87,7 @@ export default function Home() {
              height={150}
              className="inline"/>
              <h2 className="text-xl font-bold">Programming Languages</h2>
-             <p className="text-sm py-2 text-gray-800 leading-6"> Currently i am doing my Bachelors and i have a Higher Diploma and a Diploma in Information Tecnologies in University of Colombo.</p>
+             <p className="text-sm py-2 text-gray-800 leading-6"> I have good skills on programming languages like Java, php, Javascript, HTML/CSS and intermidiate skills on Typescript and Dart.</p>
             </div>
             <div className="bg-blue-300 text-center shadow-sm p-5 rounded-xl my-10">
             <Image src={frameskill}
@@ -96,7 +96,7 @@ export default function Home() {
              height={120}
              className="inline"/>
              <h2 className="text-xl font-bold">Frameworks</h2>
-             <p className="text-sm py-2 text-gray-800 leading-6"> Currently i am doing my Bachelors and i have a Higher Diploma and a Diploma in Information Tecnologies in University of Colombo.</p>
+             <p className="text-sm py-2 text-gray-800 leading-6">NodeJs, NestJs, NextJs, Flutter, Bootstrap and TailwindCss are frameworks that i use to develop web-bsed systems and mobile applications etc.</p>
             </div>
             <div className="bg-blue-300 text-center shadow-sm p-5 rounded-xl my-10">
             <Image src={otherskill}
@@ -104,8 +104,8 @@ export default function Home() {
              width={180}
              height={180}
              className="inline"/>
-             <h2 className="text-xl font-bold">Others</h2>
-             <p className="text-sm py-2 text-gray-800 leading-6"> Currently i am doing my Bachelors and i have a Higher Diploma and a Diploma in Information Tecnologies in University of Colombo.</p>
+             <h2 className="text-xl font-bold mt-1">Others</h2>
+             <p className="text-sm py-2 text-gray-800 leading-6"> I have good skills on OOP programming, GIT Version Controlling, Wordpress, Microsoft Office package, Communication Skills etc.</p>
             </div>
             </div>
           </section>
