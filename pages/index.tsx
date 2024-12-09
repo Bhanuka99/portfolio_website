@@ -49,7 +49,7 @@ export default function Home() {
                   <a href="https://drive.google.com/file/d/1zaYYtLduyFFi6bgCb8QGcWXsrnCp5fWn/view?usp=sharing" 
                   className=" bg-blue-400 text-black px-4 py-2 border-none rounded-md"
                   download={"Resume"}>
-                    Download CV
+                    Resume
                   </a>
                 </li>
               </ul>
@@ -67,7 +67,7 @@ export default function Home() {
             <a href="mailto:bhanuka.ariyarathne@gmail.com"><SiGmail /></a>
             </div>
             {/* profile */}
-            <div className="m-auto relative bg-gradient-to-b from-blue-200 w-80 h-80 p-5 mt-15 rounded-full">
+            <div className="m-auto relative bg-gradient-to-b from-blue-200 w-72 h-72 p-5 mt-15 rounded-full md:w-80 md:h-80 lg:w-80 lg:h-80">
               <Image src={profileImage} alt="profile pic" layout="" objectFit="cover"/>
             </div>
           </section>
