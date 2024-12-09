@@ -46,7 +46,7 @@ export default function Home() {
               <h1 className="text-sm md:text-xl text-blue-400">Developed by Bhanuka Ariyarathne</h1>
               <ul className="flex items-center">
                 <li>
-                  <a href="https://drive.google.com/file/d/1REqBXTsnBiq46O5dYndOvA8dxy-MWtWP/view?usp=sharing" 
+                  <a href="https://drive.google.com/file/d/13Eu8-DxckNeIY5RY5-9YN3sMxJ_wgDRg/view?usp=sharing" 
                   className=" bg-blue-400 text-black px-4 py-2 border-none rounded-md"
                   download={"Resume"}>
                     Download CV
