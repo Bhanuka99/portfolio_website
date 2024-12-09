@@ -117,7 +117,7 @@ export default function Home() {
             <div className="bg-blue-300 shadow-sm p-5 rounded-xl my-10">
             <h2 className="text-2xl font-bold">NoteSphear</h2>
             <p className="text-sm py-2 text-gray-600 leading-6">Use Flutter framework for development. This app can use for save user’s notes and tasks. This project was done to a sample project to improve my skills.</p>
-            <div className="flex flex-col gap-4 p-4 lg:flex-row lg:flex-wrap">
+            <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
             <Image src={noteapp1}
              alt="note pic1"
              width={420}
@@ -144,7 +144,7 @@ export default function Home() {
             <div className="bg-blue-300 shadow-sm p-5 rounded-xl my-10">
             <h2 className="text-2xl font-bold">Expenz</h2>
             <p className="text-sm py-2 text-gray-600 leading-6">The development is done by using Flutter framework and this app can use to store and track user’s incomes and expenses. This project was done as sample project for improve my skills.</p>
-            <div className="flex flex-col gap-4 p-4 lg:flex-row lg:flex-wrap">
+            <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
             <Image src={expenzapp1}
              alt="expenz pic1"
              width={420}
@@ -171,7 +171,7 @@ export default function Home() {
             <div className="bg-blue-300 shadow-sm p-5 rounded-xl my-10">
             <h2 className="text-2xl font-bold">Fitness Tracker</h2>
             <p className="text-sm py-2 text-gray-600 leading-6"> This app is developed using flutter. This is a sample project that i did for improve my ux-ui skills and front-end development.</p>
-            <div className="flex flex-col gap-4 p-4 lg:flex-row lg:flex-wrap">
+            <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
             <Image src={fitapp1}
              alt="fitness Tracker1"
              width={420}
@@ -198,7 +198,7 @@ export default function Home() {
             <div className="bg-blue-300 shadow-sm p-5 rounded-xl my-10">
             <h2 className="text-2xl font-bold">Workout Planner</h2>
             <p className="text-sm py-2 text-gray-600 leading-6">This app can use to track user’s daily workout plans and calculate amount of calaries that user burn in day.</p>
-            <div className="flex flex-col gap-4 p-4 lg:flex-row lg:flex-wrap">
+            <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
             <Image src={wrkapp1}
              alt="work pic1"
              width={420}
@@ -225,7 +225,7 @@ export default function Home() {
             <div className="bg-blue-300 shadow-sm p-5 rounded-xl my-10">
             <h2 className="text-2xl font-bold">Election Result</h2>
             <p className="text-sm py-2 text-gray-600 leading-6">Use php, html/css, javascript for development. This web page can use for display can show the election results from uploading json file to it. This project was done to a sample project to improve my skills.</p>
-            <div className="flex flex-col gap-4 p-4 lg:flex-row lg:flex-wrap">
+            <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
             <Image src={vote1}
              alt="result1"
              width={420}
