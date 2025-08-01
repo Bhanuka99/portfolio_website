@@ -132,52 +132,52 @@ export default function Home() {
             <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
             <Image src={hun1}
              alt="hun pic1"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={hun2}
              alt="hun pic2"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={hun3}
              alt="hun pic3"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             </div>
             <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
             <Image src={hun4}
              alt="hun pic4"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={hun5}
              alt="hun pic5"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={hun6}
              alt="hun pic6"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             </div>
             <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
             <Image src={hun7}
              alt="hun pic7"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={hun8}
              alt="hun pic8"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={hun9}
              alt="hun pic9"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             </div>
             <a href="https://github.com/Bhanuka99/Hunger-s-Hub" className="text-blue-800">
@@ -193,18 +193,18 @@ export default function Home() {
             <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
             <Image src={wea1}
              alt="weather pic1"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={wea2}
              alt="weather pic2"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={wea3}
              alt="weather pic3"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             </div>
             <a href="https://github.com/Bhanuka99/weather-app" className="text-blue-800">
@@ -220,18 +220,18 @@ export default function Home() {
             <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
             <Image src={noteapp1}
              alt="note pic1"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={noteapp2}
              alt="note pic2"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={noteapp3}
              alt="note pic3"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             </div>
             <a href="https://github.com/Bhanuka99/note_sphere" className="text-blue-800">
@@ -247,18 +247,18 @@ export default function Home() {
             <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
             <Image src={expenzapp1}
              alt="expenz pic1"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={expenzapp2}
              alt="expenz pic2"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={expenzapp3}
              alt="expenz pic3"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             </div>
             <a href="https://github.com/Bhanuka99/expenz-app" className="text-blue-800">
@@ -274,18 +274,18 @@ export default function Home() {
             <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
             <Image src={fitapp1}
              alt="fitness Tracker1"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={fitapp2}
              alt="fitness Tracker2"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={fitapp3}
              alt="fitness Tracker3"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             </div>
             <a href="https://github.com/Bhanuka99/fitness_tracker" className="text-blue-800">
@@ -301,18 +301,18 @@ export default function Home() {
             <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
             <Image src={wrkapp1}
              alt="work pic1"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={wrkapp2}
              alt="work pic2"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={wrkapp3}
              alt="work pic3"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             </div>
             <a href="https://github.com/Bhanuka99/workout_planner" className="text-blue-800">
@@ -328,18 +328,18 @@ export default function Home() {
             <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
             <Image src={vote1}
              alt="result1"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={vote2}
              alt="result2"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             <Image src={vote3}
              alt="result3"
-             width={420}
-             height={420}
+             width={370}
+             height={370}
              className="mx-auto"/>
             </div>
             <a href="https://github.com/Bhanuka99/election_results_webpage" className="text-blue-800">
