@@ -21,6 +21,18 @@ import wrkapp3 from "../public/work3.png";
 import vote1 from "../public/vote1.png";
 import vote2 from "../public/vote2.png";
 import vote3 from "../public/vote3.png";
+import hun1 from "../public/admin.png";
+import hun2 from "../public/order.png";
+import hun3 from "../public/pos1.png";
+import hun4 from "../public/pos2.png";
+import hun5 from "../public/stock.png";
+import hun6 from "../public/plan.png";
+import hun7 from "../public/rep1.png";
+import hun8 from "../public/rep2.png";
+import hun9 from "../public/sup.png";
+import wea1 from "../public/weather1.png";
+import wea2 from "../public/weather2.png";
+import wea3 from "../public/weather3.png";
 // import icons
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -112,6 +124,94 @@ export default function Home() {
           {/* projects */}
           <section>
           <h2 className="opacity-60 text-4xl py-8 font-bold">Portfolio</h2>
+            {/* Hunger's Hub */}
+            <div>
+            <div className="bg-blue-300 shadow-sm p-5 rounded-xl my-10">
+            <h2 className="text-2xl font-bold">Hunger's Hub ERP System</h2>
+            <p className="text-sm py-2 text-gray-600 leading-6">Use PHP, HTML/CSS, Bootstrap, JavaScript, AJAX for development. This system can use to manage all operations of bakery and its multiple outlets. This system includes POS system too. This project was done as my final year project in university.</p>
+            <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
+            <Image src={hun1}
+             alt="hun pic1"
+             width={420}
+             height={420}
+             className="mx-auto"/>
+            <Image src={hun2}
+             alt="hun pic2"
+             width={420}
+             height={420}
+             className="mx-auto"/>
+            <Image src={hun3}
+             alt="hun pic3"
+             width={420}
+             height={420}
+             className="mx-auto"/>
+            </div>
+            <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
+            <Image src={hun4}
+             alt="hun pic4"
+             width={420}
+             height={420}
+             className="mx-auto"/>
+            <Image src={hun5}
+             alt="hun pic5"
+             width={420}
+             height={420}
+             className="mx-auto"/>
+            <Image src={hun6}
+             alt="hun pic6"
+             width={420}
+             height={420}
+             className="mx-auto"/>
+            </div>
+            <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
+            <Image src={hun7}
+             alt="hun pic7"
+             width={420}
+             height={420}
+             className="mx-auto"/>
+            <Image src={hun8}
+             alt="hun pic8"
+             width={420}
+             height={420}
+             className="mx-auto"/>
+            <Image src={hun9}
+             alt="hun pic9"
+             width={420}
+             height={420}
+             className="mx-auto"/>
+            </div>
+            <a href="https://github.com/Bhanuka99/Hunger-s-Hub" className="text-blue-800">
+              Github link
+            </a>
+            </div>
+            </div>
+            {/* Weather-APP */}
+            <div>
+            <div className="bg-blue-300 shadow-sm p-5 rounded-xl my-10">
+            <h2 className="text-2xl font-bold">Weather-APP</h2>
+            <p className="text-sm py-2 text-gray-600 leading-6">Use React and TailwindCSS for development. This app can use for search weather of cities. Use OpenWeather API for weather data. This project was done during self learing in ReactJS.</p>
+            <div className="flex flex-col gap-2 p-4 lg:flex-row lg:flex-wrap">
+            <Image src={wea1}
+             alt="weather pic1"
+             width={420}
+             height={420}
+             className="mx-auto"/>
+            <Image src={wea2}
+             alt="weather pic2"
+             width={420}
+             height={420}
+             className="mx-auto"/>
+            <Image src={wea3}
+             alt="weather pic3"
+             width={420}
+             height={420}
+             className="mx-auto"/>
+            </div>
+            <a href="https://github.com/Bhanuka99/weather-app" className="text-blue-800">
+              Github link
+            </a>
+            </div>
+            </div>
             {/* notesphere */}
             <div>
             <div className="bg-blue-300 shadow-sm p-5 rounded-xl my-10">
